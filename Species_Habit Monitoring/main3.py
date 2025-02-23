@@ -15,12 +15,13 @@ import os
 from land_change import *
 from threat import *
 from species_mont import *
+#from land_change import *
 
 # Load Models
 #st.sidebar.info("Loading AI models... Please wait.")
 species_processor = AutoImageProcessor.from_pretrained("microsoft/resnet-50")
 species_model = AutoModelForImageClassification.from_pretrained("microsoft/resnet-50").eval()
-yolo_model = YOLO("yolov8x.pt")
+yolo_model = YOLO("Species_Habit Monitoring\\yolov8n.pt")
 threat_model = pipeline("image-classification", model="nateraw/vit-base-beans")
 
 # Habitat Analysis Model
