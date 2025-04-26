@@ -8,8 +8,8 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
-SERPAPI_KEY = "d7ba1fde70335b113f681f1a5d0359c6057a70e5a85a4fabca8e632d635472a2" # Add SERPAPI_KEY to your .env file
-AIMLAPI_KEY = "c469a9eb66fa4a26a45b851d112a5807" # Add AIMLAPI_KEY to your .env file
+SERPAPI_KEY = "SERPAPI" # Add SERPAPI_KEY to your .env file
+AIMLAPI_KEY = "AIMLAPI" # Add AIMLAPI_KEY to your .env file
 
 # Initialize speech recognizer
 recognizer = sr.Recognizer()

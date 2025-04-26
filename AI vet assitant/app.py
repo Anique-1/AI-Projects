@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
-GOOGLE_MAPS_API_KEY = "AIzaSyCcVNkwFOnyiUS1XsuZmhjYKQBGu1ztX3U"      
+GOOGLE_MAPS_API_KEY = "ENTER GOOGLE MAP API"      
 
 # Initialize Google Maps client
 gmaps = googlemaps.Client(key=GOOGLE_MAPS_API_KEY)
